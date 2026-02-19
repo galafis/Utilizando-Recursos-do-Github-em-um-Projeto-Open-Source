@@ -10,4 +10,6 @@ def calcular(a, b, operacao):
     else:
         return "Operação inválida"
 
-print(calcular(10, 2, "+"))
+
+if __name__ == '__main__':
+    print(calcular(10, 2, "+"))
